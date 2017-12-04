@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :poems, only: [:index]
+  resources :poems, only: [:index, :show]
   resources :blogs, only: [:index]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
